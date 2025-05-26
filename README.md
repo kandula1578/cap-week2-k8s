@@ -1,4 +1,4 @@
-# AWS Capstone project using eks — Events App 
+# [AWS Capstone project using eks — Events App ]
 This project is a simple RESTful backend API built using Node.js and Express, with MySQL as the data store. It serves event data and demonstrates deployment-ready microservice architecture for AWS EKS.
 
 ## Technology Stack
@@ -63,3 +63,18 @@ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scrip
 chmod 700 get_helm.sh
 ./get_helm.sh
 ```
+
+## Overview
+This project demonstrates how to containerize a Node.js application with a PostgreSQL backend, push the images to a container registry, deploy them on a Kubernetes cluster using Helm, and perform rolling updates.
+
+## Prerequisites
+Kubernetes cluster (e.g., Amazon EKS, Minikube, or any managed Kubernetes)
+kubectl installed and configured to access the cluster
+helm installed
+Docker installed and logged in to your container registry (Docker Hub, ECR, etc.)
+Basic familiarity with Kubernetes resources and Helm charts
+
+## [Folder Structure]
+
+
+
