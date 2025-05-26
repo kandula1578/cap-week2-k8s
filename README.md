@@ -19,9 +19,9 @@ To install Docker, Kubernetes CLI (kubectl), eksctl, Git, Node.js, Terraform, an
 
 Installing Docker
 
-sudo yum install -y docker
-sudo systemctl enable docker
-sudo systemctl start docker
+<sub sudo yum install -y docker
+     sudo systemctl enable docker
+     sudo systemctl start docker  sub>
 
 Installing git
 
